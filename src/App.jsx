@@ -40,6 +40,7 @@ export default function App() {
 
     setColor(r, g, b);
   }
+  
 
   return (
     <>
