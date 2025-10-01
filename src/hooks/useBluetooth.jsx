@@ -94,7 +94,7 @@ export default function useBluetooth() {
       console.log("✅ Підключення та ініціалізація успішні!");
 
       // Тест: Відправляємо білий колір
-      const command = createColorCommand(128, 18, 36);
+      const command = createColorCommand(128, 20, 36);
       await workingCharacteristic.writeValue(command);
     } catch (e) {
       setError(e.message || "Помилка підключення/ініціалізації.");
