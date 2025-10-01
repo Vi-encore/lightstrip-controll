@@ -1,0 +1,30 @@
+{
+  "name": "lightstrip-controll",
+  "version": "1.0.0",
+  "description": "Can be used in Chrome browser freely \r (there can be some mistakes, but it is only a prototype)\r  ### for elk-bleddm devices (for now)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vi-encore/lightstrip-controll.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vi-encore/lightstrip-controll/issues"
+  },
+  "homepage": "https://github.com/Vi-encore/lightstrip-controll#readme",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "vite": "^7.1.7"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
