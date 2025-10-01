@@ -12,7 +12,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  // Якщо ви хочете, щоб Vite використовував ваш index.html
+  base: "/lightstrip-controll/",
   build: {
     outDir: "dist",
   },
