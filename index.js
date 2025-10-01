@@ -182,8 +182,6 @@ function createColorCommand(r, g, b) {
 changeBtn.addEventListener("click", () => changeColor(characteristics_main));
 
 function changeColor(characteristic) {
-  // console.log(characteristic);
-  // console.log(typeof characteristic);
 
   const r = Number(prompt("enter a RED value (0-255)"));
   const g = Number(prompt("enter a GREEN value (0-255)"));
